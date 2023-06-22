@@ -1,0 +1,156 @@
+body{
+    /*background-color: rgb(96, 147, 243);*/
+    background-color: rgb(252, 174, 86);
+    margin: 0;
+}
+
+h1{
+    color: blue;
+    border: 1px blue solid;
+    text-align: center;
+    background-color: rgb(100, 199, 224);
+}
+
+p{
+    font-style: italic;
+    /*background-color: aliceblue;*/
+    padding: 10px 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.miFlex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.redondeado{
+    border-radius: 50%;
+}
+
+.btnblue{
+    background-color: rgb(176, 176, 241);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* BARRA DE MENU */
+.container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: rgb(10, 70, 235);
+  }
+   
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+   
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+   
+  li>a {
+    padding: 8px 24px;
+  }
+   
+  li {
+    list-style-type: none;
+  }
+   
+  a {
+    color: white;
+    text-decoration:none;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+   
+  .button-menu-toggle {
+    display: none;
+  }
+
+  .imgFlex{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .imgFlex img{
+    width: 500px;
+  }
+
+  .flexContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer{
+    min-height: 200px;
+    background-color: rgba(10, 70, 235,0.95);
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .greeting{
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border:none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+   
+    .nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(10, 70, 235,0.95);
+      width: 100%;
+      height: 100%;
+      top: 25px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap:70px;
+      font-size: 40px;
+    }
+
+    
+    iframe{
+      width: 90%; 
+      height: 250px;
+    }
+  }
+
+  
+
+ 
